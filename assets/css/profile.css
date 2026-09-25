@@ -1,0 +1,17 @@
+/* Personal profile additions to the Academic Pages theme. */
+.profile-monogram { display: grid; place-items: center; width: 112px; height: 112px; margin-bottom: 1.2rem; border: 1px solid #91aaa7; border-radius: 50%; color: #176b65; background: #eaf3f1; font-size: 2.5rem; font-weight: 700; letter-spacing: -.08em; }
+.profile-kicker { color: #55716d; font-size: .7em; letter-spacing: .12em; font-weight: 700; margin-top: 1rem; }
+.page__content .profile-intro { font-size: clamp(1.8rem, 3.4vw, 2.6rem); line-height: 1.17; letter-spacing: -.035em; font-weight: 700; max-width: 640px; margin-bottom: 1.25rem; }
+.page__content { line-height: 1.75; }
+.page__content a { text-underline-offset: .18em; }
+.page__content h2 { margin-top: 2rem; }
+.publication-entry { border-left: 3px solid #36877e; padding-left: 1.2rem; margin-bottom: 2rem; }
+.publication-entry h3 { line-height: 1.4; }
+.publication-entry p { margin-bottom: .65rem; }
+.page__content a, .author__urls a { overflow-wrap: anywhere; }
+a:focus-visible, button:focus-visible { outline: 3px solid #458a81; outline-offset: 4px; }
+@media (max-width: 767px) { .profile-monogram { width: 72px; height: 72px; font-size: 1.7rem; margin-bottom: .75rem; } }
+:root { --global-link-color: #176b65; --global-link-color-hover: #104d49; --global-link-color-visited: #176b65; }
+html[data-theme="dark"] { --global-link-color: #a1e1d6; --global-link-color-hover: #d2f4ed; --global-link-color-visited: #a1e1d6; }
+html[data-theme="dark"] .profile-kicker { color: #b6d9d2; }
+.page__content .profile-kicker { font-size: .7em; }

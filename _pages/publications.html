@@ -1,36 +1,15 @@
 ---
-layout: archive
+layout: single
 title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+<h2>2026</h2>
+<article class="publication-entry">
+  <h3><a href="https://doi.org/10.1007/978-3-032-31404-8_14">Controllable Diffusion-Based Data Augmentation for X-Ray Object Detection</a></h3>
+  <p><strong>Jacob Kingi</strong>, Yang Wang, and Xinxin Zuo</p>
+  <p><em>International Conference on Pattern Recognition (ICPR)</em>, 2026, pp. 201–215.</p>
+  <p>Controllable diffusion models generate synthetic X-ray images to improve object detection when training data is limited.</p>
+  <p><a href="https://doi.org/10.1007/978-3-032-31404-8_14">Publisher / DOI</a></p>
+</article>
+<p>Find my research on <a href="https://www.researchgate.net/profile/Jacob-Kingi">ResearchGate</a>.</p>
