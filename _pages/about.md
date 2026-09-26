@@ -8,11 +8,13 @@ redirect_from:
 ---
 
 <p class="profile-kicker">COMPUTER VISION · CONCORDIA UNIVERSITY</p>
-<p class="profile-intro">Understanding images when data is scarce.</p>
+<p class="profile-intro">Learning to understand the visual world.</p>
 
-I’m **Jacob Kingi**, a PhD student at **Concordia University** in Montréal. My current research interest is **image understanding under data scarcity**: how we can build useful visual models when training examples or annotations are limited.
+I am **Jacob Kingi**, a **PhD researcher in Computer Vision at Concordia University**, interested in building learning systems that can understand visual data, discover meaningful structure, and reason about the 3D world.
 
-My work includes controllable diffusion-based data augmentation for X-ray object detection, connecting generative modeling with visual recognition in limited-data settings.
+My research spans **visual representation learning, multimodal learning, category discovery, generative methods, and 3D scene understanding and reconstruction**. My previous work includes **Learning Using Privileged Information for Generalized Category Discovery (LUPI-GCD)** and **controllable diffusion-based data augmentation (CDA) for X-ray object detection**. More recently, I have been exploring **3D and dynamic scene reconstruction from real-world video**, with an interest in representations that capture geometry, motion, and scene structure.
+
+More broadly, I am interested in **self-supervised and multimodal representation learning, open-world visual recognition, generative models, 3D computer vision, and learning from video**. I am particularly drawn to problems where models must learn from heterogeneous or imperfect observations and develop representations that generalize beyond their training conditions.
 
 [Explore my research]({{ '/research/' | relative_url }}) · [View publications]({{ '/publications/' | relative_url }})
 
@@ -29,5 +31,7 @@ Jacob Kingi, Yang Wang, and Xinxin Zuo
 Alongside my academic background, I bring **four years of professional experience**.
 
 ## Get in touch
+
+I am always interested in discussing new ideas and collaborating on research in these areas. If our interests overlap—or you think they could—I would be happy to connect.
 
 For research inquiries, email [jacob.kingi@mail.concordia.ca](mailto:jacob.kingi@mail.concordia.ca). You can also find my [contact details and professional profiles]({{ '/contact/' | relative_url }}).

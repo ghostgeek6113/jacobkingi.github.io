@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title: "Jacob Kingi"
 title_separator          : "-"
 name: &name "Jacob Kingi"
-description: &description "Jacob Kingi is a PhD student at Concordia University researching image understanding under data scarcity."
+description: &description "Jacob Kingi is a PhD researcher in Computer Vision at Concordia University, working on representation learning, category discovery, generative methods, and 3D scene understanding."
 url: "https://ghostgeek6113.github.io"
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl: "/jacobkingi.github.io"
@@ -26,7 +26,7 @@ author:
   avatar:
   name: "Jacob Kingi"
   pronouns         : # example: "she/her"
-  bio: "PhD student · Image understanding under data scarcity"
+  bio: "PhD researcher in Computer Vision"
   location: "Montréal, Canada"
   employer: "Concordia University"
   uri              : # URL
